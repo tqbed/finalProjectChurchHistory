@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1673760350.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50 freq=2]pee pee poo poo check![/wave]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673760846.json",
+		"name": "Unit0"
+	}
+}
