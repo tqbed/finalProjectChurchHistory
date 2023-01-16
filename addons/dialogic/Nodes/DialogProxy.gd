@@ -6,6 +6,7 @@ export(String, "TimelineDropdown") var timeline: String
 export(bool) var add_canvas = true
 export(bool) var reset_saves = true
 
+	
 func _ready():
 	if reset_saves:
 		Dialogic.reset_saves()
@@ -13,6 +14,7 @@ func _ready():
 	get_parent().call_deferred('add_child', d)
 	_copy_signals(d if not add_canvas else d.dialog_node)	
 	queue_free()
+	
 
 func _copy_signals(dialogic:Node):
 	var sigs = self.get_signal_list()

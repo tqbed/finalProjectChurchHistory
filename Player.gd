@@ -11,6 +11,14 @@ var motion = Vector2.ZERO
 
 onready var sprite = $Sprite
 
+func _ready():
+	print("please god help me")
+	var new_dialog = Dialogic.start('Unit1Temple')
+	add_child(new_dialog)
+	
+	new_dialog.connect("WHY", self, "disable_input")
+	new_dialog.connect("HELP", self, "enable_input")
+		
 func _physics_process(delta):
 		var x_input = Input.get_action_raw_strength("ui_right") - Input.get_action_strength("ui_left")
 		
@@ -32,4 +40,15 @@ func _physics_process(delta):
 				motion.y = -JUMP_FORCE
 
 		motion = move_and_slide(motion, Vector2.UP)
-		
+	
+func disable_input():
+	print("running disable input")
+	Input.set_action_restriction("ui_right", InputEvent.ACTION_RESTRICT_INPUT)
+	Input.set_action_restriction("ui_left", InputEvent.ACTION_RESTRICT_INPUT)
+	Input.set_action_restriction("ui_up", InputEvent.ACTION_RESTRICT_INPUT)
+	
+func enable_input():
+	print("running enable output")
+	Input.set_action_restriction("ui_right", InputEvent.ACTION_RESTRICT_NONE)
+	Input.set_action_restriction("ui_left", InputEvent.ACTION_RESTRICT_NONE)
+	Input.set_action_restriction("ui_up", InputEvent.ACTION_RESTRICT_NONE)
