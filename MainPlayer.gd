@@ -9,10 +9,17 @@ const JUMP_FORCE = 64
 
 var motion = Vector2.ZERO
 
+var input_enabled = true 
+
 onready var sprite = $Sprite
 
 func _physics_process(delta):
-		var x_input = Input.get_action_raw_strength("ui_right") - Input.get_action_strength("ui_left")
+		var x_input
+
+		if input_enabled:
+			x_input = Input.get_action_raw_strength("ui_right") - Input.get_action_strength("ui_left")
+		else:
+			x_input = 0
 		
 		if x_input != 0:
 			motion.x += x_input * ACCELERATION * delta
@@ -33,12 +40,13 @@ func _physics_process(delta):
 
 		motion = move_and_slide(motion, Vector2.UP)
 	
-func disable_input():
-	Input.set_action_restriction("ui_right", InputEvent.ACTION_RESTRICT_INPUT)
-	Input.set_action_restriction("ui_left", InputEvent.ACTION_RESTRICT_INPUT)
-	Input.set_action_restriction("ui_up", InputEvent.ACTION_RESTRICT_INPUT)
+func disable_input(_timeline_name):
+	print("running disable input")
+	input_enabled = false 
 	
-func enable_input():
-	Input.set_action_restriction("ui_right", InputEvent.ACTION_RESTRICT_NONE)
-	Input.set_action_restriction("ui_left", InputEvent.ACTION_RESTRICT_NONE)
-	Input.set_action_restriction("ui_up", InputEvent.ACTION_RESTRICT_NONE)
+	
+	
+func enable_input(_timeline_name):
+	print("running enable output")
+	input_enabled = true 
+	

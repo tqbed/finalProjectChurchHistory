@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex"
+path="res://.import/jamal.png-9d79fe1bbb2953902a0e50e9b0f1925a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assprite/unit 1 characters/Jesus-drip.png"
-dest_files=[ "res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex" ]
+source_file="res://Assprite/unit 1 characters/jamal.png"
+dest_files=[ "res://.import/jamal.png-9d79fe1bbb2953902a0e50e9b0f1925a.stex" ]
 
 [params]
 

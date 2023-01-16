@@ -14,7 +14,7 @@ var input_enabled = true
 onready var sprite = $Sprite
 
 func _ready():
-	var new_dialog = Dialogic.start('Unit1Temple')
+	var new_dialog = Dialogic.start('Unit1Sermon')
 
 	new_dialog.connect("timeline_start", self, "disable_input")
 	new_dialog.connect("timeline_end", self, "enable_input")

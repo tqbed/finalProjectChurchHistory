@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex"
+path="res://.import/00499-2502316934-pixellated art, pixellated landscape, clear pixels, simple pixel landscape.png-4b6f904df3fdd1f4c4763509e84ddf37.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assprite/unit 1 characters/Jesus-drip.png"
-dest_files=[ "res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex" ]
+source_file="res://Assprite/unit 1 tilesets/00499-2502316934-pixellated art, pixellated landscape, clear pixels, simple pixel landscape.png"
+dest_files=[ "res://.import/00499-2502316934-pixellated art, pixellated landscape, clear pixels, simple pixel landscape.png-4b6f904df3fdd1f4c4763509e84ddf37.stex" ]
 
 [params]
 

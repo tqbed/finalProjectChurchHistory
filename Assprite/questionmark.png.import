@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex"
+path="res://.import/questionmark.png-7ad256bcce83b4eeed3b5b037197d07e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assprite/unit 1 characters/Jesus-drip.png"
-dest_files=[ "res://.import/Jesus-drip.png-149e1b675b548165fac17bd7c1319039.stex" ]
+source_file="res://Assprite/questionmark.png"
+dest_files=[ "res://.import/questionmark.png-7ad256bcce83b4eeed3b5b037197d07e.stex" ]
 
 [params]
 
