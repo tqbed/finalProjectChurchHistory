@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Stone.tres" type="TileSet" id=2]
+[ext_resource path="res://Assprite/unit 2 characters/kingcharles.png" type="Texture" id=3]
+[ext_resource path="res://Assprite/unit 1 tilesets/00534-3778304145-pixel landscape, forest pixel landscape, pixellated, pixellated art, clear pixels, good quality.png" type="Texture" id=4]
+[ext_resource path="res://Assprite/unit 2 characters/CharlemangeKnight.png" type="Texture" id=5]
+[ext_resource path="res://unit2act1.gd" type="Script" id=6]
+[ext_resource path="res://act2player.gd" type="Script" id=7]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 131082, 0, 0, 262142, 0, 0, 262143, 0, 0, 196618, 0, 0, 327678, 0, 0, 327679, 0, 0, 262144, 0, 0, 262145, 0, 0, 262146, 0, 0, 262147, 0, 0, 262148, 0, 0, 262149, 0, 0, 262150, 0, 0, 262151, 0, 0, 262152, 0, 0, 262153, 0, 0, 262154, 0, 0, 393215, 0, 0, 327680, 0, 0, 327681, 0, 0, 327682, 0, 0, 327683, 0, 0, 327684, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="TileMap"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+centered = false
+script = ExtResource( 6 )
+
+[node name="Kingcharles" type="Sprite" parent="."]
+position = Vector2( 200, 96 )
+texture = ExtResource( 3 )
+
+[node name="CharlemangeKnight" type="Sprite" parent="Kingcharles"]
+position = Vector2( -40, 8 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 5 )
+
+[node name="CharlemangeKnight2" type="Sprite" parent="Kingcharles"]
+position = Vector2( 40, 16 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+script = ExtResource( 7 )

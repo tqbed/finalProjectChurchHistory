@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Doubt I'll even be able to read whatever language this is."
+		},
+		{
+			"character": "character-1673906414.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The sign reads \"Mount Zion\""
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? That definitely shouldn't be English... This seems awfully convienent. "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But if this is Mount Zion, then what's over there?"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673906389.json",
+		"name": "Unit1Sign"
+	}
+}

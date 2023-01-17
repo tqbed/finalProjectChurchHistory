@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Unit1House.tscn" type="PackedScene" id=1]
+
+[sub_resource type="StreamTexture" id=1]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/00721-2712052142-pixellated art, pixellated old house made of stone, pixellated stone house, clear pixels, simple pixel house made of stone.png-51fc3ee6aaca570a5aa240dbcd279805.stex"
+
+[node name="Area2D" instance=ExtResource( 1 )]
+
+[node name="Sprite" parent="." index="0"]
+position = Vector2( 28, 37 )
+texture = SubResource( 1 )
+
+[node name="QuestionMark" parent="." index="2"]
+position = Vector2( 26, 13 )

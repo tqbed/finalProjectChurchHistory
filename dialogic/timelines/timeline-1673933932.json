@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1673934039.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Pax Romana has been interrupted by that man. I don’t want to see it when Pilate gets ahold of him…"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673933932.json",
+		"name": "Unit1NPC1"
+	}
+}

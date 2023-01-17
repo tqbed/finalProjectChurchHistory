@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This must be... Jerusalem?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I better take a look around."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673933857.json",
+		"name": "Unit1Jerusalem"
+	}
+}

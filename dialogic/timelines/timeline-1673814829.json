@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"emit_signal": "WHY",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Where am I?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I could swear I was just studying a minute ago..."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait... is that?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s… twelve year old Jesus impressing the Jewish religious authorities in Jerusalem's temple!"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait, how did I know that?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!"
+		},
+		{
+			"emit_signal": "HELP",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://Unit1Sermon.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673814829.json",
+		"name": "Unit1Temple"
+	}
+}

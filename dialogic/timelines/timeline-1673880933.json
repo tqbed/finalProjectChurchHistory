@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now what?!"
+		},
+		{
+			"character": "character-1673880901.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "USE THE ARROW KEYS TO MOVE LEFT AND RIGHT"
+		},
+		{
+			"character": "character-1673880901.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "USE THE UP ARROW KEY TO JUMP"
+		},
+		{
+			"character": "character-1673880901.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "USE ENTER TO INTERACT WITH OBJECTS AND PEOPLE"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, I better look around..."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673880933.json",
+		"name": "Unit1LastSupper"
+	}
+}

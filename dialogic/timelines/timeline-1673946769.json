@@ -1,0 +1,93 @@
+{
+	"events": [
+		{
+			"character": "character-1673934164.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What an intense battle, Martel!"
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, but we all knew that we were going to prevail"
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Moors simply stood no chance against my army"
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Battle of Tours is mine!"
+		},
+		{
+			"character": "character-1673934164.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "For Christendom! "
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, who the heck are you?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My name is PLAYER. I’m uh… a devout Christian who traveled a long distance to see the strength of the Franks defend against the muslim armies. "
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "PLAYER?! That's a stupid name. "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, I think my parents had a grudge out for me. "
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, you must become a part of my army. I’m always looking for more trustworthy men. "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I appreciate the offer, but I have to decline - I have to… get back to my family"
+		},
+		{
+			"character": "character-1673946787.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No one just declines my offers. You will be joining, or you won’t be around to see your family any longer. "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(It would be great to have some plot armor as a merciless king is staring me down with a sword…) "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673946769.json",
+		"name": "Unit2Act1"
+	}
+}

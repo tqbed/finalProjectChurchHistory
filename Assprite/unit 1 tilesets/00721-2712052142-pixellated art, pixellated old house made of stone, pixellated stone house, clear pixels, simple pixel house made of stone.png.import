@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/00721-2712052142-pixellated art, pixellated old house made of stone, pixellated stone house, clear pixels, simple pixel house made of stone.png-51fc3ee6aaca570a5aa240dbcd279805.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assprite/unit 1 tilesets/00721-2712052142-pixellated art, pixellated old house made of stone, pixellated stone house, clear pixels, simple pixel house made of stone.png"
+dest_files=[ "res://.import/00721-2712052142-pixellated art, pixellated old house made of stone, pixellated stone house, clear pixels, simple pixel house made of stone.png-51fc3ee6aaca570a5aa240dbcd279805.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

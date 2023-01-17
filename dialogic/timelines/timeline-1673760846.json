@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1673760350.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, PLAYER, have you studied for your Religious Studies exam?"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Religious… studies exam…?"
+		},
+		{
+			"character": "character-1673760350.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you serious? It’s tomorrow! You better get to work right now!"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But- Well… I guess I have to…"
+		},
+		{
+			"character": "character-1673760350.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50 freq=4]SURELY you wouldn't want a bad GRADE right!?[/wave]"
+		},
+		{
+			"change_scene": "res://Unit1Temple.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673760846.json",
+		"name": "Unit0"
+	}
+}
