@@ -13,7 +13,6 @@ var input_enabled = true
 
 onready var sprite = $Sprite
 
-	
 func _physics_process(delta):
 		var x_input
 
