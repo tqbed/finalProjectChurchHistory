@@ -1,0 +1,18 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673935696.json",
+		"name": "breaker"
+	}
+}

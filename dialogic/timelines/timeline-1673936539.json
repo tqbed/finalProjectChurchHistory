@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1673934330.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... Do you want me to release \"the King of the Jews\"?"
+		},
+		{
+			"character": "character-1673934330.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, not him! Give us Barabbas!"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's... I need to catch up! "
+		},
+		{
+			"change_scene": "res://Unit1Crucify.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673936539.json",
+		"name": "Unit1CatchupStart"
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"events": [
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "They're forcing him to wear a crown of thorns, as he walks holding his own cross."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can't lose track of them! "
+		},
+		{
+			"change_scene": "res://crossfade.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Phew... I kept up with them."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But that's..."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The sign reads... Jesus of Nazareth, the King of the Jews. "
+		},
+		{
+			"character": "character-1673760853.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673934314.json",
+		"name": "Unit1Catchup"
+	}
+}
